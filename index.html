@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+
+
+            <form action="" id="form">
+
+                <button id="submitBtn" class="btn">Open</button>
+                <button id="saveBtn" class="btn">Save</button>
+                <button id="editBtn" class="btn">Edit</button>
+                <input type="search" id="search" class="search-inp">
+
+               
+                <div class="modal">
+                     
+                    <div class="input-box">
+                        <input type="text" id="filmImg" placeholder="filmImg">
+                    </div>
+        
+                    <div class="input-box">
+                        <input type="text" id="filmName" placeholder="filmName">
+                    </div>
+
+                    <div class="input-box">
+                        <input type="number" id="filmImdb" placeholder="filmImdb">
+
+                    </div>                
+                    
+                    <div class="input-box">
+
+                        <select name="films" id="filmCategory">
+                            <option value="Film-categor" disabled>Film category</option>
+                            <option value="Animated">Animated</option>
+                            <option value="Comedy">Comedy</option>
+                            <option value="Drama">Drama</option>
+                            <option value="Horror">Horror</option>
+                        </select>
+
+                    </div>
+                
+
+                    <div class="input-box">
+                        <input type="text" id="filmRejisor" placeholder="filmRejisor">
+                    </div>
+                </div>
+
+
+
+               
+
+            </form>
+
+            
+        
+
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Film img</th>
+
+                    <th>Film Name</th>
+                    <th>Film Imdb</th>
+                    <th>Film categor</th>
+                    <th>Film Rejisor</th>
+                    <th>Settings</th>
+
+                </tr>
+            </thead>
+
+            <tbody id="tBody">
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
